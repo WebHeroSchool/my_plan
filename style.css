@@ -1,7 +1,13 @@
 h1{
-  font-family: Roboto;
+ font-family: 'Sedgwick Ave', cursive;
+ color: pink;
+  font-weight: bold;
 }
 a{
   color: green;
   font-weight: bold;
+}
+p{
+  font-family: 'Pacifico', cursive;
+  color: pink;
 }
