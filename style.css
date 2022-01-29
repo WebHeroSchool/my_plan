@@ -28,15 +28,15 @@ p{
   display: flex;
   justify-content: space-between;
   margin:auto;
+   width:80%;
 
 }
 
 
 
 .main-section{
- display: flex;
-  justify-content: space-between;
-  margin:auto;
+   margin:auto;
+   width:80%;
 }
 
 
