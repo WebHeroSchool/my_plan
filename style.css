@@ -3,11 +3,76 @@ h1{
  color: pink;
   font-weight: bold;
 }
+
+
+
 a{
   color: green;
   font-weight: bold;
 }
+
+
 p{
   font-family: 'Pacifico', cursive;
   color: pink;
 }
+
+
+.main-content__button{
+  color:green;
+}
+
+
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin:auto;
+  width:80%;
+}
+
+
+
+.main-section{
+  margin:auto;
+  width:80%;
+
+}
+
+
+
+ .wrapper{
+ margin: auto;
+ width: 80%;
+}
+
+
+
+.logo, .menu {
+ display: inline-block;
+ margin-right: 63%;
+}
+
+
+.logo {
+ padding: 40px 0;
+}
+
+
+.menu {
+ display: flex;
+ align-items: center;
+}
+
+
+
+.menu__item {
+ padding: 0 13px;
+}
+
+
+
+.menu__item:last-child {
+ padding-right: 0;
+}
+
