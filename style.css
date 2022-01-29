@@ -27,15 +27,14 @@ p{
 .header{
   display: flex;
   justify-content: space-between;
-  margin:auto;
+ 
   width:80%;
 }
 
 
 
 .main-section{
-  margin:auto;
-  width:80%;
+  display: inline-block;
 
 }
 
@@ -75,4 +74,3 @@ p{
 .menu__item:last-child {
  padding-right: 0;
 }
-
