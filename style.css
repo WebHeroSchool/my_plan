@@ -27,7 +27,6 @@ p{
 .header{
   display: flex;
   justify-content: space-between;
- 
   width:80%;
 }
 
@@ -35,7 +34,6 @@ p{
 
 .main-section{
   display: inline-block;
-
 }
 
 
