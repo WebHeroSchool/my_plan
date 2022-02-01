@@ -1,18 +1,53 @@
-h1{
- font-family: 'Sedgwick Ave', cursive;
- color: pink;
-  font-weight: bold;
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin:auto;
+  width:80%;
 }
 
 
 
-a{
+.logo, .menu {
+  display: inline-block;
+}
+
+
+
+.logo {
+  padding: 40px 0;
+}
+
+
+
+.menu {
+  display: flex;
+  align-items: center;
   color: green;
   font-weight: bold;
 }
 
 
-p{
+.menu__item {
+  padding: 0 13px;
+}
+
+
+
+.main-section{
+  margin:auto;
+  width:80%;
+}
+
+
+.main-content__title{
+  font-family: 'Sedgwick Ave', cursive;
+  color: pink;
+  font-weight: bold;
+}
+
+
+.main-content__subtitle{
   font-family: 'Pacifico', cursive;
   color: pink;
 }
@@ -24,46 +59,8 @@ p{
 
 
 
-.header{
-  display: flex;
-  justify-content: space-between;
-  margin:auto;
-  width:80%;
-}
 
 
 
-.main-section{
-  margin:auto;
-  width:80%;
-}
 
 
-
-.logo, .menu {
- display: inline-block;
- margin-right: 63%;
-}
-
-
-.logo {
- padding: 40px 0;
-}
-
-
-.menu {
- display: flex;
- align-items: center;
-}
-
-
-
-.menu__item {
- padding: 0 13px;
-}
-
-
-
-.menu__item:last-child {
- padding-right: 0;
-}
