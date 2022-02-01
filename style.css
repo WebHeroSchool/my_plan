@@ -1,62 +1,62 @@
 
 .header{
- display: flex;
- justify-content: space-between;
- margin:auto;
- width:80%;
+
+  display: flex;
+  justify-content: space-between;
+  margin:auto;
+  width:80%;
 }
 
 
 
 .logo, .menu {
- display: inline-block;
+  display: inline-block;
 }
 
 
 
 .logo {
- padding: 40px 0;
+  padding: 40px 0;
 }
 
 
 
 .menu {
- display: flex;
- align-items: center;
- color: green;
- font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: green;
+  font-weight: bold;
 }
 
 
 .menu__item {
- padding: 0 13px;
+  padding: 0 13px;
 }
 
 
 
 .main-section{
- margin:auto;
- width:80%;
+  margin:auto;
+  width:80%;
 }
 
 
 .main-content__title{
- font-family: 'Sedgwick Ave', cursive;
- color: pink;
- font-weight: bold;
+  font-family: 'Sedgwick Ave', cursive;
+  color: pink;
+  font-weight: bold;
 }
 
 
 .main-content__subtitle{
- font-family: 'Pacifico', cursive;
- color: pink;
+  font-family: 'Pacifico', cursive;
+  color: pink;
 }
 
 
 .main-content__button{
- color:green;
+  color:green;
 }
-
 
 
 
