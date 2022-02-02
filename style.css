@@ -1,23 +1,53 @@
 
 .header{
 
+  padding: 40px 0;
   display: flex;
   justify-content: space-between;
+
+}
+
+.wrapper{
   margin:auto;
   width:80%;
 }
-
-
 
 .logo, .menu {
   display: inline-block;
 }
 
 
-
 .logo {
-  padding: 40px 0;
+ position: relative;
+ padding: 40px 0;
+ padding-left: 44px;
+ font: bold 24px/31px "pt serif", arial, helvetica, sans-serif;
 }
+
+.logo__circle{
+ position: absolute;
+ left:0;
+ width: 28px;
+ height: 28px;
+ top: 50%;
+ transform: translateY(-50%);
+ border-radius: 50%;
+ opacity: 0.7;
+}
+
+
+.logo__circle_color_dark-blue {
+ background: #0056EC;
+}
+
+
+.logo__circle_color_blue {
+ left: 8px;
+ top: 56%;
+ background: #C8DBFB;
+
+}
+
 
 
 
@@ -30,15 +60,10 @@
 
 
 .menu__item {
+
   padding: 0 13px;
 }
 
-
-
-.main-section{
-  margin:auto;
-  width:80%;
-}
 
 
 .main-content__title{
