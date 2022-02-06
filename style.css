@@ -24,7 +24,7 @@
  font: bold 24px/31px "pt serif", arial, helvetica, sans-serif;
 }
 
-.logo__circle{
+.logo__circle{ 
  position: absolute;
  left:0;
  width: 28px;
@@ -49,10 +49,6 @@
 
 
 
-
-
-
-
 .menu {
   display: flex;
   align-items: center;
@@ -60,10 +56,10 @@
   font-weight: bold;
 }
 
+
 .menu__item {
    position: relative;
    margin-right: 26px;
-   padding: 0 13px;
    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
    color: #000;
    text-decoration: none;
@@ -111,3 +107,10 @@
 .main-content__button{
   color:green;
 }
+
+
+
+
+
+
+
