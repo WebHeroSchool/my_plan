@@ -4,7 +4,7 @@
   padding: 40px 0;
   display: flex;
   justify-content: space-between;
-
+  margin-bottom: 100px;
 }
 
 .wrapper{
@@ -91,19 +91,46 @@
 
 
 
-.main-content__title{
-  font-family: 'Pacifico', cursive;
-  color: pink;
-  font-weight: bold;
+.main {
+ Width: 434px;
+ padding-top: 100px;
+ padding-right: 63%;
+ background: top right no-repeat url(img/mainImg.svg);
 }
 
 
-.main-content__subtitle{
-  font-family: 'Pacifico', cursive;
-  color: pink;
+.main__title {
+ margin: 0 0 40px 0;
+ font: bold 50px/65px "pt serif", arial, helvetica, sans-serif;
+}
+
+.main__subtitle {
+ margin: 0 0 41px 0;
+ font: 18px/21px Roboto, arial, helvetica, sans-serif;
 }
 
 
-.main-content__button{
-  color:green;
+.main__button {
+ font: 14px/16px Roboto, arial, helvetica, sans-serif;
+}
+
+
+
+.main__title-text_highlight {
+ background: #ECF3FF;
+}
+
+.main__button{
+ display: inline-block;
+ font: 14px/16px Roboto, arial, helvetica, sans-serif;
+ color: #fff;
+ background: #0056EC;
+ padding: 14px 16px;
+ text-decoration: none;
+ border-radius: 4px;
+ transition: opacity .5s;
+}
+
+.main__button:hover {
+ opacity: .5;
 }
