@@ -132,8 +132,8 @@
   opacity: .5;
 }
 
-.img__cicrle{
-  background: url('img/img.svg');
+.img__circle{
+  background: url('img/circle.svg');
  border: dashed 1px red;
  position: absolute;
  left:944px;
