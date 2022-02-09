@@ -95,11 +95,13 @@
 
 
 .main {
+ padding: 0 63% 100px 0;
+ background: top right no-repeat url(img/mainImg.svg);
   Width: 519px;
   padding-top: 102px;
   padding-right: 66%;
   padding-bottom: 100%;
-
+}
 
 .main__title {
   margin: -28px 0px 34px 1px;
@@ -132,11 +134,10 @@
   opacity: .5;
 }
 
-.img__circle{
-  background: url('img/circle.svg');
- border: dashed 1px red;
+.circle__img{
+  background: url(img/circle.svg);
  position: absolute;
- left:944px;
+ left: 944px;
  width: 32px;
  height: 8px;
  top: 1032px;
