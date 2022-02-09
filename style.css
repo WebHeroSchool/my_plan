@@ -141,4 +141,5 @@
  width: 32px;
  height: 8px;
  top: 1032px;
+ transition: opacity .5s, width .5s;
 }
