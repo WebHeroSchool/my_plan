@@ -1,7 +1,7 @@
 
 .header{
 
-  padding: 10px 0;
+  padding: 2px 0px 32px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
@@ -19,7 +19,7 @@
 
 .logo {
   position: relative;
-  padding: 40px 0;
+  padding: 40px;
   padding-left: 44px;
   font: bold 24px/31px "pt serif", arial, helvetica, sans-serif;
 }
@@ -57,15 +57,35 @@
   align-items: center;
   color: green;
   font-weight: bold;
+  padding-top: 4px;
 }
 
 
 .menu__item {
   position: relative;
-  margin-right: 26px;
-  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  font: 500 18px/25px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
+}
+
+.menu__item_start{
+  margin-right: 25px;
+}
+
+.menu__item_active{
+  margin-right: 24px;
+}
+
+.menu__item_about{
+  margin-right: 28px;
+}
+
+.menu__item_blog{
+  margin-right: 28px;
+}
+
+.menu__item_contact{
+  menu__item_contact
 }
 
 .menu__item:after {
@@ -94,35 +114,36 @@
 
 
 
+
+
+
+
+
 .main {
-  Width: 497px;
-  padding-top: 100px;
-  padding-right: 87%;
+ padding: 0 63% 100px 0;
+ background: top right no-repeat url(img/mainImg.svg);
+  Width: 519px;
+  padding-top: 102px;
+  padding-right: 66%;
   padding-bottom: 100%;
-  background: top right no-repeat url(img/mainImg.svg);
 }
 
-
 .main__title {
-  margin: 0 0 40px 0;
-  font: bold 60px/87px "pt serif", arial, helvetica, sans-serif;
+  margin: -28px 0px 34px 1px;
+  font: bold 66px/87px "pt serif", arial, helvetica, sans-serif;
 }
 
 .main__subtitle {
-  margin: 0 0 41px 0;
-  font: 22px/25px Roboto, arial, helvetica, sans-serif;
-}
-
-
-.main__button {
-  font: 14px/16px Roboto, arial, helvetica, sans-serif;
+  margin: 0px 94px 40px 0;
+  font: 22px/28px Roboto, arial, helvetica, sans-serif;
 }
 
 
 
 .main__title-text_highlight {
-  background: #ECF3FF;
-}
+    background: linear-gradient(to bottom, #f3f3f300 18%, #ECF3FF 20%);
+  }
+
 
 
 .main__button{
@@ -136,7 +157,17 @@
   transition: opacity .5s;
 }
 
+
+
 .main__button:hover {
   opacity: .5;
 }
 
+.circle__img{
+  background: url(img/circle.svg);
+ position: absolute;
+ left: 944px;
+ width: 32px;
+ height: 8px;
+ top: 1032px;
+}
