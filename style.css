@@ -1,7 +1,7 @@
 
 .header{
 
-  padding: 2px 1px 31px;
+  padding: 2px 0px 32px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
@@ -56,16 +56,35 @@
   align-items: center;
   color: green;
   font-weight: bold;
-  padding-top: 3px;
+  padding-top: 4px;
 }
 
 
 .menu__item {
   position: relative;
-  margin-right: 26px;
-  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  font: 500 18px/25px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
+}
+
+.menu__item_start{
+  margin-right: 25px;
+}
+
+.menu__item_active{
+  margin-right: 24px;
+}
+
+.menu__item_about{
+  margin-right: 28px;
+}
+
+.menu__item_blog{
+  margin-right: 28px;
+}
+
+.menu__item_contact{
+  menu__item_contact
 }
 
 .menu__item:after {
@@ -94,6 +113,11 @@
 
 
 
+
+
+
+
+
 .main {
  padding: 0 63% 100px 0;
  background: top right no-repeat url(img/mainImg.svg);
@@ -116,19 +140,19 @@
 
 
 .main__title-text_highlight {
-  background: #ECF3FF;
-}
+    background: linear-gradient(to bottom, #f3f3f300 18%, #ECF3FF 20%);
+  }
 
-.main__button{
-  display: inline-block;
-  font: 18px/21px Roboto, arial, helvetica, sans-serif;
-  color: #fff;
-  background: #0056EC;
-  padding: 18px 21px 17px 34px;
-  text-decoration: none;
-  border-radius: 3px;
-  transition: opacity .5s;
-}
+.main__button {
+        display: inline-block;
+        font: 18px/21px Roboto, arial, helvetica, sans-serif;
+        color: #fff;
+        background: #0056EC;
+        padding: 18px 21px 17px 34px;
+        text-decoration: none;
+        border-radius: 3px;
+        transition: opacity .5s;
+      }
 
 .main__button:hover {
   opacity: .5;
@@ -141,5 +165,4 @@
  width: 32px;
  height: 8px;
  top: 1032px;
- transition: opacity .5s, width .5s;
 }
