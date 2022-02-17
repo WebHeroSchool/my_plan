@@ -1,10 +1,10 @@
 
 .header{
 
-  padding: 0px 0px 100px;
+  padding: 0px 0px 0px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 141px;
+  margin-bottom: 142px;
 }
 
 .wrapper{
@@ -20,7 +20,7 @@
 .logo {
   position: relative;
   padding: 31px;
-  padding-left: 43px;
+  padding-left: 42px;
   font: bold 24px/31px "pt serif", arial, helvetica, sans-serif;
 }
 
@@ -118,24 +118,24 @@
 
 
 .main {
- padding: 0 0 0px 2px;
  background: top right no-repeat url(img/mainImg.svg);
-  Width: 515px;
-  padding-top: 14px;
-  padding-right: 1016px;
+  Width: 523px;
+  padding-top: 5px;
+  padding-right: 1000px;
   padding-bottom: 150px;
 }
 
 .main__title {
-  margin: 61px 0px 36px 3px;
+  margin: 67px 0px 22px 0px;
   font: bold 66px/87px "pt serif", arial, helvetica, sans-serif;
+  font-weight:700;
 }
 
 .main__subtitle {
-  margin: 35px 71px 40px 3px;
-  font: 22px/27px Roboto, arial, helvetica, sans-serif;
+  margin: 37px 42px 43px 0px;
+  font: 22px/25.78px Roboto, arial, helvetica, sans-serif;
+ font-weight:400;
 }
-
 
 
 .main__title-text_highlight {
@@ -146,13 +146,14 @@
 
 .main__button{
   display: inline-block;
-  font: 19px/22px Roboto, arial, helvetica, sans-serif;
+  font: 18px/26px Roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
-  padding: 18px 25px;
+  padding: 18px 27px 13px;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 7px;
   transition: opacity .5s;
+  font-weight:500;
 }
 
 
@@ -173,16 +174,42 @@
 
 @media (max-width: 768px) {
  .menu {
- display: none;
+   display: none;
  }
 
  .header {
- margin-bottom: 28px;
+   margin-bottom: 28px;
  }
  
  .main {
- padding: 74% 0 0;
- background-size: 74%;
- background-position: top center;
+   padding: 74% 0 0;
+   background-size: 74%;
+   background-position: top center;
  }
+
+
+ .header {
+   margin-bottom: 28px;
+ }
+
+ .main {
+   text-align: center;
+   padding: 74% 0 0;
+   background-size: 74%;
+   background-position: top center;
+
+
+ .main__title {
+   margin-bottom: 44px;
+   font: bold 30px/39px "pt_serif", arial, helvetica, sans-serif;
+ }
+
+.main__subtitle {
+   margin-bottom: 25px;
+   font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+}
+
+.main__button {
+   font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+}
 }
