@@ -176,4 +176,14 @@
  .menu {
  display: none;
  }
+
+ .header {
+ margin-bottom: 28px;
+ }
+
+ .main {
+ padding: 74% 0 0;
+ background-size: 74%;
+ background-position: top center;
+ }
 }
