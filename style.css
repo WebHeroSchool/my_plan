@@ -1,10 +1,10 @@
 
 .header{
 
-  padding: 2px 0px 32px;
+  padding: 0px 0px 100px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 141px;
 }
 
 .wrapper{
@@ -19,8 +19,8 @@
 
 .logo {
   position: relative;
-  padding: 40px;
-  padding-left: 44px;
+  padding: 31px;
+  padding-left: 43px;
   font: bold 24px/31px "pt serif", arial, helvetica, sans-serif;
 }
 
@@ -63,29 +63,29 @@
 
 .menu__item {
   position: relative;
-  font: 500 18px/25px Roboto, arial, helvetica, sans-serif;
+  font: 500 19px/27px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
 }
 
 .menu__item_start{
-  margin-right: 25px;
+  margin-right: 23px;
 }
 
 .menu__item_active{
-  margin-right: 24px;
+  margin-right: 21px;
 }
 
 .menu__item_about{
-  margin-right: 28px;
+  margin-right: 25px;
 }
 
 .menu__item_blog{
-  margin-right: 28px;
+  margin-right: 24px;
 }
 
 .menu__item_contact{
-  menu__item_contact
+  margin-right: 6px;
 }
 
 .menu__item:after {
@@ -120,22 +120,22 @@
 
 
 .main {
- padding: 0 63% 100px 0;
+ padding: 0 0 0px 2px;
  background: top right no-repeat url(img/mainImg.svg);
-  Width: 519px;
-  padding-top: 102px;
-  padding-right: 66%;
-  padding-bottom: 100%;
+  Width: 515px;
+  padding-top: 14px;
+  padding-right: 1016px;
+  padding-bottom: 150px;
 }
 
 .main__title {
-  margin: -28px 0px 34px 1px;
+  margin: 61px 0px 36px 3px;
   font: bold 66px/87px "pt serif", arial, helvetica, sans-serif;
 }
 
 .main__subtitle {
-  margin: 0px 94px 40px 0;
-  font: 22px/28px Roboto, arial, helvetica, sans-serif;
+  margin: 35px 71px 40px 3px;
+  font: 22px/27px Roboto, arial, helvetica, sans-serif;
 }
 
 
@@ -148,15 +148,14 @@
 
 .main__button{
   display: inline-block;
-  font: 18px/21px Roboto, arial, helvetica, sans-serif;
+  font: 19px/22px Roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
-  padding: 18px 21px;
+  padding: 18px 25px;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;
 }
-
 
 
 .main__button:hover {
