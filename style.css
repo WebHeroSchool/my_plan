@@ -24,6 +24,7 @@
   font: bold 24px/31px "pt serif", arial, helvetica, sans-serif;
 }
 
+
 .logo__circle{
   position: absolute;
   left:0;
@@ -138,6 +139,7 @@
   }
 
 
+
 .main__button{
   display: inline-block;
   font: 18px/26px Roboto, arial, helvetica, sans-serif;
@@ -148,6 +150,7 @@
   border-radius: 7px;
   transition: opacity .5s;
 }
+
 
 .main__button:hover {
   opacity: .5;
