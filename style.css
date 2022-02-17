@@ -51,7 +51,6 @@
 
 
 
-
 .menu {
   display: flex;
   align-items: center;
@@ -84,7 +83,9 @@
   margin-right: 24px;
 }
 
-
+.menu__item_contact{
+  margin-right: 6px;
+}
 
 .menu__item:after {
   position: absolute;
@@ -125,11 +126,13 @@
 .main__title {
   margin: 67px 0px 22px 0px;
   font: bold 66px/87px "pt serif", arial, helvetica, sans-serif;
+  font-weight:700;
 }
 
 .main__subtitle {
   margin: 37px 42px 43px 0px;
   font: 22px/25.78px Roboto, arial, helvetica, sans-serif;
+ font-weight:400;
 }
 
 
@@ -147,6 +150,7 @@
   text-decoration: none;
   border-radius: 7px;
   transition: opacity .5s;
+  font-weight:500;
 }
 
 .main__button:hover {
@@ -165,20 +169,11 @@
 
 
 
+
+
+
 @media (max-width: 768px) {
  .menu {
  display: none;
  }
-
-
-.header {
-  margin-bottom: 28px;
-}
-
-
-.main {
-  padding: 74% 0 0;
-  background-size: 74%;
-  background-position: top center;
-  }
 }
