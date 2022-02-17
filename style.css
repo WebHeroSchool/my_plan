@@ -83,9 +83,7 @@
   margin-right: 24px;
 }
 
-.menu__item_contact{
-  margin-right: 6px;
-}
+
 
 .menu__item:after {
   position: absolute;
@@ -161,4 +159,25 @@
  width: 32px;
  height: 8px;
  top: 1032px;
+}
+
+
+
+
+@media (max-width: 768px) {
+ .menu {
+ display: none;
+ }
+
+
+.header {
+  margin-bottom: 28px;
+}
+
+
+.main {
+  padding: 74% 0 0;
+  background-size: 74%;
+  background-position: top center;
+  }
 }
