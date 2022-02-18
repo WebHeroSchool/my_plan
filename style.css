@@ -172,7 +172,7 @@
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 768px){
  .menu {
    display: none;
  }
@@ -186,6 +186,7 @@
    padding: 74% 0 0;
    background-size: 74%;
    background-position: top center;
+ }
 
 
  .main__title {
