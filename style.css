@@ -145,12 +145,13 @@
 
 .circle__img {
   background: url(img/circle.svg);
- position: absolute;
- left: 951px;
- width: 32px;
- height: 8px;
- top: 1032px;
+  position: absolute;
+  left: 951px;
+  width: 32px;
+  height: 8px;
+  top: 1032px;
 }
+
 
 
 
@@ -354,11 +355,11 @@
  }
 
 .main {
-    width: 277px;
-    padding: 72% 49px 0 0;
-    background-size: 86%;
-    background-position: top center;
-    text-align: center;
+   width: 277px;
+   padding: 72% 49px 0 0;
+   background-size: 86%;
+   background-position: top center;
+   text-align: center;
  }
 
 .main__title {
