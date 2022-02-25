@@ -46,12 +46,13 @@
   background: #C8DBFB;
 }
 
-#menu__toggle {
+
+.newimg {
   display: none;
 }
 
-.hamburger-menu {
-  display: none  ;
+#menu__toggle {
+  display: none;
 }
 
 .menu {
@@ -250,12 +251,6 @@
 
 
 
-
-
-
-
-
-
 /*Для размера 1024px*/
 @media (max-width: 1025px){
 
@@ -322,7 +317,6 @@
   top: 722px;
 }
 }
-
 
 
 
@@ -403,6 +397,7 @@
   height: 2px;
   background-color: #0056EC;
 }
+
 .newimg > span::before {
   content: '';
   top: -8px;
@@ -426,7 +421,7 @@
   padding: 176px 15px;
   list-style: none;
   text-align: center;
-  background-color: #ECEFF1;
+  background-color: #fff;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
 }
 /* элементы меню */
@@ -439,6 +434,7 @@
     text-decoration: none;
     font: 500 29px/17px Roboto, arial, helvetica, sans-serif;
 }
+
 
 .menu__item_active:after {
   opacity: 1;
@@ -467,5 +463,4 @@
 #menu__toggle:checked ~ .menu {
   visibility: visible;
   left: 0;
-}
 }
