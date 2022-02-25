@@ -46,6 +46,15 @@
   background: #C8DBFB;
 }
 
+
+.newimg {
+  display: none;
+}
+
+#menu__toggle {
+  display: none;
+}
+
 .menu {
   display: flex;
   align-items: center;
@@ -53,7 +62,6 @@
   font-weight: bold;
   padding-top: 4px;
 }
-
 
 .menu__item {
   position: relative;
@@ -146,13 +154,12 @@
 
 .circle__img {
   background: url(img/circle.svg);
-  position: absolute;
-  left: 951px;
-  width: 32px;
-  height: 8px;
-  top: 1032px;
+ position: absolute;
+ left: 951px;
+ width: 32px;
+ height: 8px;
+ top: 1032px;
 }
-
 
 
 
@@ -319,24 +326,13 @@
 
 
 
-
 /*Для размера 375px*/
 @media (max-width: 768px){
-.menu {
-   display: none;
-}
+
 .logo {
   padding: 15px;
 }
 
-.newimg{
-  background: url(img/group16.svg);
-  position: fixed;
-  left: 334px;
-  width: 25px;
-  height: 17px;
-  top: 32px;
- }
 
 .logo__circle_color_blue {
     top: 67%;
@@ -356,11 +352,11 @@
  }
 
 .main {
-   width: 277px;
-   padding: 72% 49px 0 0;
-   background-size: 86%;
-   background-position: top center;
-   text-align: center;
+    width: 277px;
+    padding: 72% 49px 0 0;
+    background-size: 86%;
+    background-position: top center;
+    text-align: center;
  }
 
 .main__title {
@@ -379,4 +375,98 @@
   padding: 11px 20px 16px;
   font: 500 14px/17px Roboto, arial, helvetica, sans-serif;
 }
+.circle__img{
+  display: none;
+}
+
+}
+/* стилизуем кнопку */
+
+.newimg{
+  position: fixed;
+  left: 334px;
+  width: 25px;
+  height: 5px;
+  top: 40px;
+  cursor: pointer;
+  z-index: 1;
+  display: flex;
+ }
+
+/* добавляем "гамбургер" */
+.newimg > span,
+.newimg > span::before,
+.newimg > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #0056EC;
+}
+
+.newimg > span::before {
+  content: '';
+  top: -8px;
+}
+.newimg > span::after {
+  content: '';
+  top: 8px;
+}
+
+
+}
+/* контейнер меню */
+.menu {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 176px 15px;
+  list-style: none;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+/* элементы меню */
+.menu__item {
+    display: block;
+    padding: 21px 24px;
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    font: 500 29px/17px Roboto, arial, helvetica, sans-serif;
+}
+
+
+.menu__item_active:after {
+  opacity: 1;
+  width: 0;
+}
+.menu__item_contact {
+    margin-right: 28px;
+    top: 3px;
+}
+
+.menu__item:hover {
+  background-color: #CFD8DC;
+}
+
+#menu__toggle:checked ~ .newimg > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .newimg > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .newimg > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu {
+  visibility: visible;
+  left: 0;
 }
