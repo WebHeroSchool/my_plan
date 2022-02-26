@@ -1,5 +1,4 @@
 .header{
-
   padding: 0px 0px 0px;
   display: flex;
   justify-content: space-between;
@@ -113,31 +112,34 @@
 
 .main {
   background: top right no-repeat url(img/mainImg.svg);
-  Width: 540px;
+  height: 279px;
+  width: 514px;
   padding-top: 76px;
-  padding-right: 988px;
-  padding-bottom: 383px;
-  background-size: 50.7%;
+  padding-right: 1011px;
+  padding-bottom: 303px;
 }
 
 
 .main__title {
-  margin: -1px 0px 37px -2px;
+  margin: -1px -72px 37px -6px;
   font: 700 66px/87px "pt serif", arial, helvetica, sans-serif;
 }
 
+.main__title-text_highlight {
+    background: linear-gradient(to bottom, #f3f3f300 18%, #ECF3FF 20%);
+}
+
 .main__subtitle {
+  width: 427px;
+  height: 52px;
   margin-right: 85px;
   margin: 0px 0px 40px -2px;
   font: 400 21.8px/25.8px Roboto, arial, helvetica, sans-serif;
-  }
-
-.main__title-text_highlight {
-  background: linear-gradient(to bottom, #f3f3f300 18%, #ECF3FF 20%);
 }
 
 
 .main__button {
+  height: 30px;
   display: inline-block;
   font: 500 18.1px/25px Roboto, arial, helvetica, sans-serif;
   color: #fff;
@@ -191,7 +193,6 @@
 .menu {
   padding-top: 27px;
 }
-}
 
 .menu__item {
     font: 500 14px/17px Roboto, arial, helvetica, sans-serif;
@@ -220,10 +221,10 @@
 
 .main {
   Width: 437px;
-  padding-top: 6px;
-  padding-right: 505px;
-  padding-bottom: 82px;
-  background-size: 53.9%;
+  padding-top: 5px;
+  padding-right: 506px;
+  padding-bottom: 156px;
+  background-size: 54.1%;
 }
 
 
@@ -233,12 +234,13 @@
   }
 
 .main__subtitle {
-  margin: 37px 45px 39px 15px;
-  font: 18px/23.78px Roboto, arial, helvetica, sans-serif;
+  width: 359px;
+  margin: 39px 0px 32px 15px;
+  font: 18px/21.9px Roboto, arial, helvetica, sans-serif;
 }
 .main__button {
     font: 14px/24px Roboto, arial, helvetica, sans-serif;
-    padding: 9px 12px 11px 29px;
+    padding: 9px 12px 6px 29px;
     margin-left: 17px;
     border-radius: 4px;
 }
@@ -252,21 +254,22 @@
 
 
 
+
 /*Для размера 1024px*/
 @media (max-width: 1025px){
 
 .wrapper {
-  margin-left: 33px;
-  width: 91%;
+  margin-left: 37px;
+  width: 94%;
 }
 .header {
-  padding: 0px 0px 0px 17px;
-  margin-bottom: 100px;
+  padding: 0px 0px 0px 10px;
+  margin-bottom: 91px;
 }
 
 .logo {
-  padding: 36px;
-  padding-left: 44px;
+  padding: 32px;
+  padding-left: 43px;
 }
 
 .menu{
@@ -289,34 +292,36 @@
 }
 
 .main {
-  Width: 425px;
-  padding-top: 3px;
-  padding-right: 506px;
-  padding-bottom: 120px;
-  background-size: 55.3%;
+  Width: 438px;
+  padding-top: 6px;
+  padding-right: 502.2px;
+  padding-bottom: 164px;
+  background-size: 54.9%;
 }
 
 
 .main__title {
-  margin: 14px 26px 16px 0px;
+  margin: 14px 26px 16px 9px;
   font: bold 50px/64px "pt serif", arial, helvetica, sans-serif;
 }
 
 .main__subtitle {
-  margin: 41px 47px 38px 0px;
-  font: 18px/23.68px Roboto, arial, helvetica, sans-serif;
-}
+  margin: 40px 0 33px 9px;
+  font: 18px/21.68px Roboto, arial, helvetica, sans-serif;
+  }
+
 .main__button {
   font: 15px/28px Roboto, arial, helvetica, sans-serif;
-  padding: 8px 14px 9px;
-  margin-left: 1px;
-}
+  padding: 6px 15px 8px;
+  margin-left: 8px;
+  }
 
 .circle__img {
   left: 504px;
   top: 722px;
 }
 }
+
 
 
 
@@ -359,19 +364,19 @@
    }
 
 .main__subtitle {
-  margin: 34px -9px 25px 46px;
+  width: 241px;
+  margin: 34px -9px 29px 46px;
   font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
 }
 
 .main__button {
   margin-left: 51px;
-  padding: 11px 20px 16px;
-  font: 500 14px/17px Roboto, arial, helvetica, sans-serif;
-}
+  padding: 3px 22px 12px;
+  font: 500 14px/40px Roboto, arial, helvetica, sans-serif;
+  }
 .circle__img{
   display: none;
 }
-
 
 /* стилизуем кнопку */
 
@@ -407,12 +412,10 @@
   top: 8px;
 }
 
-
 /* контейнер меню */
 .menu__item_active:after {
   width: 0;
 }
-
 .menu {
   display: block;
   position: fixed;
@@ -438,14 +441,6 @@
     font: 500 29px/17px Roboto, arial, helvetica, sans-serif;
 }
 
-.menu__item_active:after {
-  opacity: 1;
-  width: 0;
-}
-.menu__item_contact {
-    margin-right: 28px;
-    top: 3px;
-}
 
 .menu__item:hover {
   background-color: #CFD8DC;
