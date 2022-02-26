@@ -12,11 +12,6 @@
 }
 
 
-@font-face{
-  font-family: "PTSerif-Bold";
-  src: url("../font.scc/PTSerif-Bold.woff");
-}
-
 .logo, .menu {
   display: inline-block;
 }
