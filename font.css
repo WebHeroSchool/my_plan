@@ -2,9 +2,9 @@
 
 
 @font-face {
-    font-family: 'PTSerif-Bold';
-    src: url('PTSerif-Bold.woff') format('woff');
-    font-weight: normal;
+    font-family: 'PT Serif';
+    src: url("/font.css/PTSerif-Bold.woff") format("woff");
+    font-weight: 700;
     font-style: normal;
 
 }
