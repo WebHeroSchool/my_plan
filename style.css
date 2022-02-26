@@ -11,6 +11,12 @@
   margin-left: 197px;
 }
 
+
+@font-face{
+  font-family: "PTSerif-Bold";
+  src: url("../font.scc/PTSerif-Bold.woff");
+}
+
 .logo, .menu {
   display: inline-block;
 }
@@ -20,7 +26,7 @@
   position: relative;
   padding: 31px;
   padding-left: 42px;
-  font: bold 24px/31px "pt serif", arial, helvetica, sans-serif;
+  font: bold 24px/31px "PTSerif-Bold", arial, helvetica, sans-serif;
 }
 
 
@@ -119,10 +125,9 @@
   padding-bottom: 303px;
 }
 
-
 .main__title {
   margin: -1px -72px 37px -6px;
-  font: 700 66px/87px "pt serif", arial, helvetica, sans-serif;
+  font: 700 66px/87px "PTSerif-Bold", arial, helvetica, sans-serif;
 }
 
 .main__title-text_highlight {
@@ -326,7 +331,7 @@
 
 
 /*Для размера 375px*/
-@media (max-width: 768px){
+@media (max-width: 380px){
 
 .logo {
   padding: 15px;
