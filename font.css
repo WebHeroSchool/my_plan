@@ -2,9 +2,8 @@
 
 
 @font-face {
-    font-family: 'pt_serifregular';
-    src: url('ptserif-regular-webfont.woff') format('woff');
-    font-weight: normal;
+    font-family: 'PT Serif';
+    src: url("font/PTSerif-Bold.woff") format("woff");
+    font-weight: 700;
     font-style: normal;
-
 }
