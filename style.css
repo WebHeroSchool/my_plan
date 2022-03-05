@@ -55,7 +55,7 @@
   align-items: center;
   color: green;
   font-weight: bold;
-  padding-top: 20px;
+  padding-top: 37px;
 }
 
 .menu__item {
@@ -174,7 +174,7 @@
     font: bold 24px/31px "PT Serif", arial, helvetica, sans-serif;
   }
   .menu {
-    padding-top: 27px;
+    padding-top: 42px;
   }
   .menu__item {
     font: 500 14px/17px Roboto, arial, helvetica, sans-serif;
@@ -256,11 +256,11 @@
     background-size: 54.9%;
   }
   .main__title {
-    margin: 14px 26px 16px 8px;
+    margin: 15px 26px 16px 8px;
     font: bold 50px/64px "PT Serif", arial, helvetica, sans-serif;
   }
   .main__subtitle {
-    margin: 40px 0 33px 9px;
+    margin: 40px 0 35px 9px;
     font: 18px/21.68px Roboto, arial, helvetica, sans-serif;
   }
   .main__button {
