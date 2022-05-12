@@ -138,13 +138,13 @@
 	}
 
 	40% {
-		transform: translateY(-20px);
-		transform: translateY(-20px);
+		transform: translateY(-15x);
+		transform: translateY(-15px);
 	}
 
 	80% {
-		transform: translateY(-10px);
-		transform: translateY(-10px);
+		transform: translateY(-5px);
+		transform: translateY(-5px);
 	}
 }
 .main__button {
