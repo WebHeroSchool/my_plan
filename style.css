@@ -94,7 +94,7 @@
   height: 3px;
   background: #0056EC;
   opacity: 0;
-  transition: opacity .5s, width .5s;
+  transition: opacity 0.5s, width 0.5s;
 }
 
 .menu__item:hover {
@@ -133,15 +133,33 @@
 }
 
 @keyframes bounce {
-  0%, 20%, 60%, 100% {
+  0% {
+    transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  20% {
+    transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  60% {
+    transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(0);
     transform: translateY(0);
   }
 
   40% {
     transform: translateY(-15px);
+    transform: translateY(-15px);
   }
 
   80% {
+    transform: translateY(-5px);
     transform: translateY(-5px);
   }
 }
