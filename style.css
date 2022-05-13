@@ -132,20 +132,18 @@
   font: 400 21.8px/25.9px Roboto, arial, helvetica, sans-serif;
 }
 @keyframes bounce {
-	0%, 20%, 60%, 100% {
-		transform: translateY(0);
-		transform: translateY(0);
-	}
-
-	40% {
-		transform: translateY(-15px);
-		transform: translateY(-15px);
-	}
-
-	80% {
-		transform: translateY(-5px);
-		transform: translateY(-5px);
-	}
+  0%, 20%, 60%, 100% {
+    transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-15px);
+    transform: translateY(-15px);
+    }
+  80% {
+    transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
 }
 .main__button {
   height: 30px;
